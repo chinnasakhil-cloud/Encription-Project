@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/DencImg">
+<servlet>
+    <servlet-name>DataOwnerReg</servlet-name>
+    <servlet-class>com.app.action.DataOwnerReg</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DataOwnerReg</servlet-name>
+    <url-pattern>/dataowner_reg</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>DataUserReg</servlet-name>
+    <servlet-class>com.app.action.DataUserReg</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DataUserReg</servlet-name>
+    <url-pattern>/datauser_reg</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>dataowner_login</servlet-name>
+    <servlet-class>com.app.action.dataowner_login</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>dataowner_login</servlet-name>
+    <url-pattern>/dataowner_login</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>datauser_login</servlet-name>
+    <servlet-class>com.app.action.datauser_login</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>datauser_login</servlet-name>
+    <url-pattern>/datauser_login</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>UploadPicAction</servlet-name>
+    <servlet-class>com.app.action.UploadPicAction</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>UploadPicAction</servlet-name>
+    <url-pattern>/UploadPicAction</url-pattern>
+</servlet-mapping>
+<servlet>
+   <servlet-name>ImageDownloadServlet</servlet-name>
+   <servlet-class>com.app.action.ImageDownloadServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>ImageDownloadServlet</servlet-name>
+   <url-pattern>/ImageDownloadServlet</url-pattern>
+</servlet-mapping>
+
+</Context>
